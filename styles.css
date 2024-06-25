@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ed9292
+}
+
+nav {
+    background-color: #838080;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.form-container form {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #555;
+}
